@@ -1,13 +1,15 @@
 # RAG 智能文档助手
 
-基于 Qwen 大模型的企业文档问答系统。上传 Markdown 格式的内部说明书，系统自动构建向量索引，支持实时检索增强生成（RAG）。
+基于大模型的企业文档问答系统。上传 Markdown 格式的内部说明书，系统自动构建向量索引，支持实时检索增强生成（RAG）。
 
 ## 功能
 
-- **智能问答** — 基于 RAG 检索公司内部文档，结合 Qwen 大模型生成准确回答
+- **智能问答** — 基于 RAG 检索公司内部文档，结合大模型生成准确回答
 - **文档管理** — 支持拖拽上传 Markdown 文件，自动分片并建立向量索引
 - **流式输出** — 回答实时流式展示，支持 Markdown 渲染和代码高亮
 - **模型配置** — 可通过 UI 实时切换 LLM 模型、Embedding 模型、API 地址等
+<img width="1278" height="696" alt="image" src="https://github.com/user-attachments/assets/39e853e8-874c-4df5-afa4-2ade0e1166e6" />
+<img width="888" height="572" alt="image" src="https://github.com/user-attachments/assets/98ad3d4e-295e-4175-b1da-cc742eb3f82e" />
 
 ## 快速开始
 
